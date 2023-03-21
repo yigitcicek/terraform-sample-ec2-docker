@@ -4,8 +4,17 @@
 *.tfstate.*
 
 *.tfvars
+*.tfvars.json
 
 .terraformrc
 terraform.rc
 
 .DS_Store
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+crash.log
+crash.*.log
